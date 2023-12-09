@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Favicon link -->
+    <link rel="icon" href="Images/Nike logo.jpeg" type="image/x-icon">
+
+    <!-- Internal style for a bottom-fixed image -->
+    <style>
+        .bottom-image {
+            width: 175px; 
+            height: auto; 
+            position: fixed;
+            bottom: 10px;
+            right: 570px;
+            transform: translateX(-50%);
+        }
+    </style>
+
+    <!-- Title of the page -->
+    <title>Support - Air Jordan</title>
+</head>
+<body>
+    <!-- Bottom-fixed image -->
+    <img class="bottom-image" src="Images/air jordan logo 2.jpeg" alt="logo">
+
+    <!-- Support Page Header -->
+    <header>
+        <h1>GET HELP</h1>
+        <p>Quick Assists</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <!-- Navigation links -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rate-comments.html">Join Us</a></li>
+            <li><a href="corporate-info.html">Info</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+
+    <!-- Support Section -->
+    <section id="support">
+        <h2>Support</h2>
+        <p>If you need assistance or have any questions, our support team is here to help. Contact us through the following options:</p>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> support@airjordans.com</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        </div>
+
+        <!-- Feedback Form -->
+        <form id="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="support-message">Your Message:</label>
+            <textarea id="support-message" name="support-message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

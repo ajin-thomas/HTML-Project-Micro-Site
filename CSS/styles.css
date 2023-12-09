@@ -1,0 +1,425 @@
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px black(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+#promotion-details {
+    color: white; 
+    font-weight: bold;
+}
+
+#promotion-details a {
+    color: white; 
+    font-weight: bold;
+}
+
+#promotion-details a:hover {
+    color: gray; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#corporate-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#corporate-info ul li {
+    margin-bottom: 10px;
+}
+
+#corporate-info h3 {
+    color: black;
+}
+
+#rate-comments {
+    font-family: "Trebuchet MS", Verdana, sans-serif; 
+}
+
+#rate-comments h2,
+#rate-comments p,
+#rate-comments label,
+#rate-comments textarea,
+#rate-comments button {
+    font-family: "Trebuchet MS", Verdana, sans-serif; 
+}
+#feedback-form label,
+#feedback-form input {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+#feedback-form label[for="email"],
+#feedback-form input[type="email"] {
+    clear: both;
+}
+#feedback-form label,
+#feedback-form input {
+    display: block;
+    margin-bottom: 10px; 
+    font-family: 'Trebuchet MS', Verdana, sans-serif; 
+}
+
+#feedback-form label[for="email"],
+#feedback-form input[type="email"],
+#feedback-form label[for="name"],
+#feedback-form input[type="text"] {
+    clear: both;
+}
+
+#about-product h2 {
+    margin-bottom: 20px; 
+}
+header h1 {
+    margin-bottom: 0px; 
+}
+#about-product {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.contact-info p {
+    margin-bottom: 10px; 
+}
+#support h2 {
+    margin-top: 0px;
+    margin-left: 30px; 
+}
+#support p {
+    margin-left: 30px; 
+}
+.about-nav {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+.product-image {
+    max-width: 200px; 
+    height: auto;
+}
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header, nav, section {
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+#promotion-details,
+#about-product,
+#rate-comments,
+#corporate-info,
+#shop-products {
+    text-align: center;
+}
+#about-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about-images img {
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+body.rate-comments-bg {
+    background-image: url('../Images/AJ1low.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 0vh;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: transparent; 
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+section {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+h2,
+p,
+form {
+    background-color: rgba(0, 0, 0, 0);
+}
+button[type="submit"] {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    border: none; 
+    font-weight: bold;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    color: gray; 
+    border-color: gray;
+}
+
+#shop-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.product:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover .product-image {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: white;
+}
+
+.description {
+    color: #ccc;
+    font-style: italic;
+}
+
+.price {
+    color: white;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+}
+
+#corporate-info {
+    background-image: url('../Images/Nike\ x\ Off\ White.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#corporate-info h2 {
+    color: black;
+}

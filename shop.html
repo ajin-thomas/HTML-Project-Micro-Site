@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Favicon link -->
+    <link rel="icon" href="Images/Nike logo.jpeg" type="image/x-icon">
+
+    <!-- Page title -->
+    <title>Shop - Air Jordans</title>
+
+    <!-- JavaScript code for handling button click -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select all buttons with the class 'product' and attach a click event listener
+            var addToCartButtons = document.querySelectorAll('.product button');
+
+            addToCartButtons.forEach(function (button) {
+                // For each button, show an alert when clicked
+                button.addEventListener('click', function () {
+                    alert('Product added to cart!');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!-- Header section -->
+<header>
+    <h1>Shop Air Jordans</h1>
+    <p>Find Your Perfect Pair</p>
+</header>
+
+<!-- Navigation section -->
+<nav>
+    <ul>
+        <!-- Navigation links -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="rate-comments.html">Join Us</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="corporate-info.html">Info</a></li>
+    </ul>
+</nav>
+
+<!-- Shop products section -->
+<section id="shop-products">
+    <!-- Product 1 -->
+    <article class="product">
+        <img class="product-image" src="Images/AJ washed black.jpeg" alt="Product 1">
+        <h2>Air Jordan Retro 1</h2>
+        <p class="description">Classic silhouette with a modern twist. Perfect for any occasion.</p>
+        <p class="price">$199.99</p>
+        <button>Add to Cart</button>
+    </article>
+
+    <!-- Product 2 -->
+    <article class="product">
+        <img class="product-image" src="Images/Nike Air Jordan 4 Retro Military Black White Gray DH6927-111 Men's or GS NEW.jpeg" alt="Product 2">
+        <h2>Air Jordan Retro 4</h2>
+        <p class="description">Timeless design and exceptional comfort. A must-have for sneaker enthusiasts.</p>
+        <p class="price">$249.99</p>
+        <button>Add to Cart</button>
+    </article>
+
+    <!-- Product 3 -->
+    <article class="product">
+        <img class="product-image" src="Images/Air Jordan 4 Retro SE.jpeg" alt="Product 3">
+        <h2>Air Jordan Retro 4 SE</h2>
+        <p class="description">Nike Air Jordan 4 Retro SE Black Canvas. No need to sweat it!</p>
+        <p class="price">$299.99</p>
+        <button>Add to Cart</button>
+    </article>
+
+    <!-- Product 4 -->
+    <article class="product">
+        <img class="product-image" src="Images/air-jordan-1-retro-high-og-gs-true-blue.jpeg" alt="Product 4">
+        <h2>Air Jordan Retro 1 Retro True Blue</h2>
+        <p class="description">The Air Jordan 1 Retro High OG ‘True Blue’ dresses the timeless silhouette in familiar hues borrowed from an OG colorway of the Air Jordan 3.</p>
+        <p class="price">$199.99</p>
+        <button>Add to Cart</button>
+    </article>
+
+    <!-- Product 5 -->
+    <article class="product">
+        <img class="product-image" src="Images/Air Jordan 1 Stage Haze.webp" alt="Product 5">
+        <h2>Air Jordan Retro 1 Stage Haze</h2>
+        <p class="description">The Air Jordan 1 Retro High OG ‘Stage Haze’ features neutral tones on the foundational sneaker that started it all.</p>
+        <p class="price">$199.99</p>
+        <button>Add to Cart</button>
+    </article>
+
+    <!-- Product 6 -->
+    <article class="product">
+        <img class="product-image" src="Images/Air jordan 1 black white.jpeg" alt="Product 6">
+        <h2>Air Jordan Retro 1 Black White</h2>
+        <p class="description">Air Jordan 1 Retro High OG ‘Black White’ sneaker was part of the 'Countdown Pack' that celebrated the launch of the Air Jordan 23 sneaker.</p>
+        <p class="price">$199.99</p>
+        <button>Add to Cart</button>
+    </article>
+</section>
+</body>
+</html>
